@@ -1,6 +1,9 @@
 employees = ['Kelly', 'Emma']
 defaults = {"designation": 'Developer', "salary": 8000}
 
-employee_data = {employee: defaults for employee in employees}
+e_date={};
 
-print(employee_data)
+for x in range(0,len(employees)):
+    e_date[employees[x]]=defaults;
+
+print(e_date);

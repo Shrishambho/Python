@@ -7,6 +7,8 @@ sample_dict = {
 
 keys = ["name", "salary"]
 
-new_dict = {key: sample_dict[key] for key in keys}
-
-print(new_dict)
+dict={
+    keys[0]:sample_dict[keys[0]],
+    keys[1]:sample_dict[keys[1]]
+}
+print(dict);

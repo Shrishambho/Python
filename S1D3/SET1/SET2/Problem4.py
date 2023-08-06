@@ -1,14 +1,13 @@
-str1 = "PyNaTive"
+str="PyNaTive"
 
-lowercase_letters = ""
-uppercase_letters = ""
+str1=""
+str2=""
 
-for char in str1:
-    if char.islower():
-        lowercase_letters += char
+for i in str:
+    if i.islower():
+        str1+=i;
     else:
-        uppercase_letters += char
+        str2+=i;
 
-arranged_string = lowercase_letters + uppercase_letters
-
-print(arranged_string)
+str4=str1+str2;
+print(str4);
