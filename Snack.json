@@ -1,0 +1,17 @@
+{
+    "1": {
+        "name": "Vadapav",
+        "price": "15",
+        "availability": "yes"
+    },
+    "2": {
+        "name": "samosa",
+        "price": "20",
+        "availability": "yes"
+    },
+    "3": {
+        "name": "kachori",
+        "price": "30",
+        "availability": "no"
+    }
+}
