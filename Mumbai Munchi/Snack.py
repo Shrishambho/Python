@@ -101,6 +101,11 @@ def main():
             deleteData(fData,foodId);
         elif choice=="4":
             viewData(fData)
+        elif choice=="5":
+            print("Thank you");
+            break;
+   
+   
 
 
 

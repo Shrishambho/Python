@@ -13,5 +13,10 @@
         "name": "kachori",
         "price": "30",
         "availability": "no"
+    },
+    "8": {
+        "name": "pizza",
+        "price": "500",
+        "availability": "yes"
     }
 }
