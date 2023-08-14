@@ -60,10 +60,12 @@ def ordes_desk(Ddata,odId,dId,quantity):
     
     pri=Ddata[dId]["price"]
     new_pri=int(pri)
-    total=new_pri*quantity;
+    total = new_pri*quantity;
    
    oData[odId]={
-       
+       "Dish_id":dId,
+       "Bill_Amount":total,
+        "quantity of dish":quantity
    }
 
 
